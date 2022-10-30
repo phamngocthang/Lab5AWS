@@ -3,7 +3,7 @@ import MySQLdb
 
 
 #Tạo kết nối với RDS Aurora MySQL và thêm dữ liệu vào
-conn = MySQLdb.connect(host='database-auro.cluster-c1lj9i4jrbvc.us-east-1.rds.amazonaws.com', user='admin', passwd='Vaylagi123', db='covid19_aurora', port=3306)
+conn = MySQLdb.connect(host='database-aurora.cluster-c1lj9i4jrbvc.us-east-1.rds.amazonaws.com', user='admin', passwd='123456789', db='covid19_aurora', port=3306)
 print('Open DB successfully')
 ut.insert(conn)
 ut.select(conn)
